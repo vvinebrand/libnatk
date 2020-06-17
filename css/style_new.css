@@ -1298,7 +1298,11 @@ form input::placeholder {
         height: 230px;
 
     }
+.search{
+    height: 40px;
+    padding-top: 10px;
 
+}
     .bg_con {
         width: 370px;
         padding: 0;
@@ -1329,11 +1333,7 @@ form input::placeholder {
     .dot {
         top: 250px;
     }
-.search{
-    height: 40px;
-    padding-top: 10px;
 
-}
     .header_subtitle {
         display: none;
     }
@@ -1365,9 +1365,11 @@ form input::placeholder {
     .search_area input {
         width: 300px;
     }
-.dws-menu ul li a{
-    font-size: 13px;
-}
+
+    .dws-menu ul li a {
+        font-size: 14.5px;
+    }
+
     .container_header {
         min-width: 370px;
         height: 50px;
@@ -1384,6 +1386,27 @@ form input::placeholder {
 
     .arrow_down {
         display: none;
+    }
+
+    .arrow_up {
+        display: none;
+    }
+
+    .footer_text {
+        margin-left: 40px;
+        font-size: 10px;
+    }
+
+    .footer_link {
+        margin-left: 40px;
+        font-size: 10px;
+
+    }
+
+    .footer {
+        min-width: 370px;
+        left: 50%;
+        margin-left: -185px;
     }
 }
 
