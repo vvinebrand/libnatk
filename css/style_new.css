@@ -1346,7 +1346,13 @@ form input::placeholder {
     }
 
     .visibleMenu_catalog ul li a {
-        font-size: 12px;
+        font-size: 15px;
+    }
+    .subMenu_catalog ul li {
+    list-style: none;
+    }
+    .visibleMenu_catalog p{
+        font-size: 14px;
     }
     .welcome {
         display: none;
