@@ -1521,7 +1521,7 @@ form input::placeholder {
     }
     .subMenu_catalog span img {
         float: right;
-        width: 10px;
+        width: 3px;
     }
 }
 @media (max-width: 375px) {
