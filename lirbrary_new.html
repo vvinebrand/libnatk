@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href="img/ico.ico">
+    <link rel="shortcut icon" href=".../img/ico.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style_new.css">
+    <link rel="stylesheet" href="../css/style_new.css">
 
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/script.js"></script>
     <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <script>
@@ -33,15 +33,16 @@
     </div>
     <header class="header">
         <div class="container_header">
-            <div class="icon_natk"><img src="img/icon_natk.png" alt=""></div>
+            
             <div class="header_text">
+                <img src="../img/icon_natk.png" alt="">
                 <h1 class="header_title">Электронная библиотека</h1>
                 <h2 class="header_subtitle">ГБПОУ НСО Новосибирский авиационный
                     технический колледж им. Б.С. Галущака</h2>
             </div>
         </div>
         <div class="arrow_down">
-            <a class="scrollto" href="#search1"><img src="img/arrow_down.png" alt="icon"></a>
+            <a class="scrollto" href="#search1"><img src="../img/arrow_down.png" alt="icon"></a>
         </div>
     </header>
     <!-- поиск -->
@@ -50,8 +51,8 @@
             <div id="search1" class="search_items">
                 <div id="search_text"> Найдите книгу, которая Вас интересует</div>
                 <div class="search_area">
-                    <form>
-                        <input type="text">
+                    <form >
+                        <input type="text" placeholder="Найти книгу">
                         <button type="submit"><i class="fas fa-search"></i></button>
                     </form>
                 </div>
@@ -62,7 +63,7 @@
     <div class="menu">
         <nav class="dws-menu">
             <ul>
-                <li><a href="lirbrary_new.html">Главная</a></li>
+                <li class="main"><a href="lirbrary_new.html">Главная</a></li>
                 <li class="clickMenu_catalog"><a href="#">Каталог книг</a>
                 </li>
                 <li class="clickMenu_contacts"><a href="#">Контакты</a>
@@ -95,7 +96,7 @@
                         <ul>
                             <li><a href="#">Компьютерные системы и комплексы</a></li>
                             <li><a href="#">Программирование в компьютерных системах</a></li>
-                            <li><a href="html/books.html">Информационные системы и программирование</a></li>
+                            <li><a href="books.html">Информационные системы и программирование</a></li>
                             <li><a href="#">Оптические и оптико-электронные приборы и системы</a></li>
                             <li><a href="#">Производство и эксплуатация оптических и оптико-электронных приборов и
                                     систем</a></li>
@@ -144,16 +145,16 @@
                     <div class="slideshow-container">
 
                         <div class="mySlides fade">
-                            <img src="img/photo1.png" alt="">
+                            <img src="../img/photo1.png" alt="">
                         </div>
                         <div class="mySlides fade">
-                            <img src="img/photo2.png" alt="">
+                            <img src="../img/photo2.png" alt="">
                         </div>
                         <div class="mySlides fade">
-                            <img src="img/photo3.png" alt="">
+                            <img src="../img/photo3.png" alt="">
                         </div>
                         <div class="mySlides fade">
-                            <img src="img/photo4.png" alt="">
+                            <img src="../img/photo4.png" alt="">
                         </div>
                         <div class="shadow">
                             <img src="" alt="">
@@ -179,7 +180,7 @@
                                 в колледже, а также исследовательские <br>
                                 и научно-публицистические статьи.</h4>
                             <span class="palka"></span>
-                            <p>Для поиска определенных литературных изданий <br>
+                            <p id="note_0">Для поиска определенных литературных изданий <br>
                                 можно воспользоваться следующими инструментами</p>
                         </div>
                         <div class="category">
@@ -211,7 +212,7 @@
     <footer class="footer">
 
         <div class="arrow_up">
-            <a class="scrollto_up" href="#search1"><img src="img/arrow_up.png" alt="icon"></a>
+            <a class="scrollto_up" href="#search1"><img src="../img/arrow_up.png" alt="icon"></a>
         </div>
         <div class="footer_items">
             <div class="footer_text">
