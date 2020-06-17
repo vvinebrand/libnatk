@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/style_new.css">
-
     <script src="../js/jquery-3.5.1.min.js"></script>
     <script src="../js/script.js"></script>
     <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -26,14 +25,12 @@
     <title>Электронная библиотека НАТК</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
     <div class="preloader">
         <div class="loader"></div>
     </div>
     <header class="header">
         <div class="container_header">
-            
             <div class="header_text">
                 <img src="../img/icon_natk.png" alt="">
                 <h1 class="header_title">Электронная библиотека</h1>
@@ -69,7 +66,6 @@
                 <li class="clickMenu_contacts"><a href="#">Контакты</a>
                 </li>
             </ul>
-
         </nav>
         <!-- подменю для каталога -->
         <div class="container">
@@ -128,9 +124,7 @@
                 <div class="subMenu_contacts">
                     <p class="clickMenuContacts">Адрес: 630091, Новосибирская область,
                         г. Новосибирск, Красный проспект, д. 72 <br>
-
                         Адрес электронной почты: info@natk.ru.<br>
-
                         Телефон: (383) 30-48-178</p>
                 </div>
             </div>
@@ -143,7 +137,6 @@
                     <h2 class="welcome">Добро пожаловать</h2>
                     <h3 class="to_library"> в нашу библиотеку</h3>
                     <div class="slideshow-container">
-
                         <div class="mySlides fade">
                             <img src="../img/photo1.png" alt="">
                         </div>
@@ -159,7 +152,6 @@
                         <div class="shadow">
                             <img src="" alt="">
                         </div>
-
                         <a class="prev" onclick="pluseSlides(-1)"><i class="fas fa-chevron-left"></i></a>
                         <a class="next" onclick="pluseSlides(1)"><i class="fas fa-chevron-right"></i></a>
                     </div>
@@ -201,16 +193,12 @@
                             обслуживание студентов, преподавателей, работников колледжа <br>
                             в соответствии с информационными запросами на основе <br>
                             широкого доступа к фонду библиотеки.</p>
-
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
     <footer class="footer">
-
         <div class="arrow_up">
             <a class="scrollto_up" href="#search1"><img src="../img/arrow_up.png" alt="icon"></a>
         </div>
@@ -220,12 +208,9 @@
                 г. Новосибирск, Красный проспект, д. 72<br>
                 Адрес электронной почты: <a href="mailto:info@natk.ru">info@natk.ru</a>.<br>
                 Телефон: (383) 30-48-178
-
             </div>
             <div class="footer_link"><a href="https://natk.ru/" target="_blank">Официальный сайт НАТК</a></div>
         </div>
-
     </footer>
 </body>
-
 </html>
