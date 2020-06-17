@@ -1438,7 +1438,7 @@ form input::placeholder {
         height: 900px;
     }
     .header_text {
-        margin-top: 7px;
+        margin-top: 10px;
         padding: 0;
         display: flex;
         justify-content: center;
@@ -1518,6 +1518,10 @@ form input::placeholder {
     }
     .footer_link{
         margin-left: 120px;
+    }
+    .subMenu_catalog span img {
+        float: right;
+        width: 10px;
     }
 }
 @media (max-width: 375px) {
