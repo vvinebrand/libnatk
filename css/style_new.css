@@ -1350,8 +1350,13 @@ form input::placeholder {
     }
     .subMenu_catalog ul li {
     list-style: none;
+   
     }
-    .visibleMenu_catalog p{
+     .subMenu_catalog ul li:before {
+    content: " ";
+    font-size: 28px;
+}
+    .subMenu_catalog p{
         font-size: 14px;
     }
     .welcome {
