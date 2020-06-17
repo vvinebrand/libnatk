@@ -1395,7 +1395,7 @@ form input::placeholder {
     }
 
     .header_title {
-        font-size: 13px;
+        font-size: 10px;
         margin: 0;
         padding: 0;
     }
@@ -1417,7 +1417,7 @@ form input::placeholder {
     }
 
     .header_text img {
-        width: 7%;
+        width: 5%;
     }
 
     .container {
