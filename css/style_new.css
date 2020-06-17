@@ -1328,6 +1328,26 @@ form input::placeholder {
     }
 }
 @media(max-width: 414px) {
+     .visibleMenu_contacts {
+        left: 50%;
+        margin-left: -207px;
+        width: 414px;
+
+    }
+
+    .visibleMenu_catalog {
+        left: 50%;
+        margin-left: -207px;
+        width: 414px;
+    }
+
+    .subMenu_contacts p {
+        font-size: 15px;
+    }
+
+    .visibleMenu_catalog ul li a {
+        font-size: 12px;
+    }
     .welcome {
         display: none;
     }
