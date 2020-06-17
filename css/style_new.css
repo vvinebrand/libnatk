@@ -1190,7 +1190,7 @@ form input::placeholder {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 481px) {
     .welcome {
         display: none;
     }
@@ -1201,22 +1201,28 @@ form input::placeholder {
 
     .mySlides {
         left: 50%;
-        margin-left: -240px;
+        margin-left: -185px;
     }
 
     .mySlides img {
-        width: 480px;
+        width: 370px;
         height: auto;
     }
 
     .shadow img {
-        width: 480px;
-        height: 299px;
+        width: 370px;
+        height: 230px;
+
+    }
+
+    .search {
+        height: 40px;
+        padding-top: 10px;
 
     }
 
     .bg_con {
-        width: 480px;
+        width: 370px;
         padding: 0;
         margin: 0;
     }
@@ -1224,11 +1230,26 @@ form input::placeholder {
     .shadow {
         position: relative;
         left: 50%;
-        margin-left: -240px;
+        margin-left: -185px;
+    }
+
+    .next,
+    .prev {
+        top: 120px;
+        color: rgba(255, 255, 255, 0.534);
+    }
+
+    .next {
+        margin-right: 5px;
+
+    }
+
+    .prev {
+        margin-left: 5px;
     }
 
     .dot {
-        top: 315px;
+        top: 250px;
     }
 
     .header_subtitle {
@@ -1242,12 +1263,12 @@ form input::placeholder {
     }
 
     .header_text {
-        margin: 0 auto;
+        margin-top: 7px;
         padding: 0;
         display: flex;
         justify-content: center;
         text-align: center;
-        max-width: 430px;
+        max-width: 370px;
         align-items: center;
     }
 
@@ -1255,25 +1276,219 @@ form input::placeholder {
         width: 7%;
     }
 
+    .container {
+        min-width: 370px;
+    }
+
+    .search_area input {
+        width: 300px;
+    }
+
+    .dws-menu ul li a {
+        font-size: 14.5px;
+    }
+
     .container_header {
+        min-width: 370px;
         height: 50px;
         padding: 0;
         margin: 0;
         display: inline-block;
-
     }
 
     .header {
         background: url(../img/header_mini.png) no-repeat;
-        background-size: contain;
+        background-size: cover;
         height: auto;
     }
 
     .arrow_down {
         display: none;
     }
-}
 
+    .arrow_up {
+        display: none;
+    }
+
+    .footer_text {
+        margin-left: 40px;
+        font-size: 10px;
+    }
+
+    .footer_link {
+        margin-left: 40px;
+        font-size: 10px;
+
+    }
+
+    .footer {
+        min-width: 370px;
+        left: 50%;
+        margin-left: -185px;
+    }
+}
+@media(max-width: 415px) {
+    .welcome {
+        display: none;
+    }
+
+    .to_library {
+        display: none;
+    }
+
+    .mySlides {
+        left: 50%;
+        margin-left: -207.5px;
+    }
+
+    .mySlides img {
+        width: 415px;
+        height: auto;
+    }
+
+    .shadow img {
+        width: 415px;
+        height: 255px;
+
+    }
+
+    .search {
+        height: 40px;
+        padding-top: 10px;
+
+    }
+
+    .bg_con {
+        width: 415px;
+        height: 1170px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .shadow {
+        position: relative;
+        left: 50%;
+        margin-left: -207.5px;
+    }
+
+    .next,
+    .prev {
+        top: 120px;
+        color: rgba(255, 255, 255, 0.534);
+    }
+
+    .next {
+        margin-right: 5px;
+
+    }
+
+    .prev {
+        margin-left: 5px;
+    }
+
+    .dot {
+        top: 260px;
+    }
+
+    .header_subtitle {
+        display: none;
+    }
+
+    .header_title {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    .inform{
+        top: 560px;
+        left: 50%;
+        margin-left: -207.5px;
+        width: 415px;
+        height: 820px;
+    }
+    .header_text {
+        margin-top: 7px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 415px;
+        align-items: center;
+    }
+
+    .header_text img {
+        width: 7%;
+    }
+
+    .container {
+        min-width: 415px;
+    }
+
+    .search_area input {
+        width: 300px;
+    }
+
+    .dws-menu ul li a {
+        font-size: 14.5px;
+    }
+
+    .container_header {
+        min-width: 415px;
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .header {
+        background: url(../img/header_mini.png) no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+
+    .arrow_down {
+        display: none;
+    }
+
+    .arrow_up {
+        display: none;
+    }
+
+    .footer_text {
+        margin-left: 40px;
+        font-size: 10px;
+    }
+
+    .footer_link {
+        margin-left: 40px;
+        font-size: 10px;
+
+    }
+
+    .footer {
+        min-width: 415px;
+        left: 50%;
+        margin-left: -207.5px;
+    }
+    #note_0{
+        font-size: 14px;
+    }
+    #note{
+        font-size: 13px;
+    }
+    .category ul{
+        margin-left: -15px;
+    }
+    .inform_subtitle{
+        font-size: 14px;
+    }
+    .footer_text{
+        margin-left: 120px;
+    }
+    .footer_link{
+        margin-left: 120px;
+    }
+}
 @media (max-width: 375px) {
     .welcome {
         display: none;
@@ -1298,11 +1513,13 @@ form input::placeholder {
         height: 230px;
 
     }
-.search{
-    height: 40px;
-    padding-top: 10px;
 
-}
+    .search {
+        height: 40px;
+        padding-top: 10px;
+
+    }
+
     .bg_con {
         width: 370px;
         padding: 0;
