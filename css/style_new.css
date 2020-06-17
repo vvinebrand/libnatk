@@ -1285,22 +1285,22 @@ form input::placeholder {
 
     .mySlides {
         left: 50%;
-        margin-left: -187.5px;
+        margin-left: -185px;
     }
 
     .mySlides img {
-        width: 375px;
+        width: 370px;
         height: auto;
     }
 
     .shadow img {
-        width: 375px;
-        height: 233px;
+        width: 370px;
+        height: 230px;
 
     }
 
     .bg_con {
-        width: 375px;
+        width: 370px;
         padding: 0;
         margin: 0;
     }
@@ -1308,7 +1308,7 @@ form input::placeholder {
     .shadow {
         position: relative;
         left: 50%;
-        margin-left: -187.5px;
+        margin-left: -185px;
     }
 
     .next,
@@ -1329,7 +1329,11 @@ form input::placeholder {
     .dot {
         top: 250px;
     }
+.search{
+    height: 40px;
+    padding-top: 10px;
 
+}
     .header_subtitle {
         display: none;
     }
@@ -1346,7 +1350,7 @@ form input::placeholder {
         display: flex;
         justify-content: center;
         text-align: center;
-        max-width: 375px;
+        max-width: 370px;
         align-items: center;
     }
 
@@ -1355,17 +1359,17 @@ form input::placeholder {
     }
 
     .container {
-        min-width: 375px;
+        min-width: 370px;
     }
 
     .search_area input {
         width: 300px;
     }
 .dws-menu ul li a{
-    font-size: 14.5px;
+    font-size: 13px;
 }
     .container_header {
-        min-width: 375px;
+        min-width: 370px;
         height: 50px;
         padding: 0;
         margin: 0;
