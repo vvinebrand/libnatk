@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href=".../img/ico.ico">
+    <link rel="shortcut icon" href="img/ico.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../css/style_new.css">
-    <script src="../js/jquery-3.5.1.min.js"></script>
-    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="css/style_new.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
     <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <script>
@@ -31,14 +31,14 @@
     <header class="header">
         <div class="container_header">
             <div class="header_text">
-                <img src="../img/icon_natk.png" alt="">
+                <img src="img/icon_natk.png" alt="">
                 <h1 class="header_title">Электронная библиотека</h1>
                 <h2 class="header_subtitle">ГБПОУ НСО Новосибирский авиационный
                     технический колледж им. Б.С. Галущака</h2>
             </div>
         </div>
         <div class="arrow_down">
-            <a class="scrollto" href="#search1"><img src="../img/arrow_down.png" alt="icon"></a>
+            <a class="scrollto" href="#search1"><img src="img/arrow_down.png" alt="icon"></a>
         </div>
     </header>
     <!-- поиск -->
@@ -137,16 +137,16 @@
                     <h3 class="to_library"> в нашу библиотеку</h3>
                     <div class="slideshow-container">
                         <div class="mySlides fade">
-                            <img src="../img/photo1.png" alt="">
+                            <img src="img/photo1.png" alt="">
                         </div>
                         <div class="mySlides fade">
-                            <img src="../img/photo2.png" alt="">
+                            <img src="img/photo2.png" alt="">
                         </div>
                         <div class="mySlides fade">
-                            <img src="../img/photo3.png" alt="">
+                            <img src="img/photo3.png" alt="">
                         </div>
                         <div class="mySlides fade">
-                            <img src="../img/photo4.png" alt="">
+                            <img src="img/photo4.png" alt="">
                         </div>
                         <div class="shadow">
                             <img src="" alt="">
@@ -199,7 +199,7 @@
     </section>
     <footer class="footer">
         <div class="arrow_up">
-            <a class="scrollto_up" href="#search1"><img src="../img/arrow_up.png" alt="icon"></a>
+            <a class="scrollto_up" href="#search1"><img src="img/arrow_up.png" alt="icon"></a>
         </div>
         <div class="footer_items">
             <div class="footer_text">
