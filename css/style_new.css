@@ -1409,12 +1409,12 @@ form input::placeholder {
     }
 
     .next {
-        margin-right: 5px;
+        margin-right: 7px;
 
     }
 
     .prev {
-        margin-left: 5px;
+        margin-left: 7px;
     }
 
     .dot {
@@ -1438,7 +1438,7 @@ form input::placeholder {
         height: 900px;
     }
     .header_text {
-        margin-top: 10px;
+        margin-top: 13px;
         padding: 0;
         display: flex;
         justify-content: center;
@@ -1521,7 +1521,7 @@ form input::placeholder {
     }
     .subMenu_catalog span img {
         float: right;
-        width: 3px;
+        width: 5px;
     }
 }
 @media (max-width: 375px) {
@@ -1535,17 +1535,17 @@ form input::placeholder {
 
     .mySlides {
         left: 50%;
-        margin-left: -185px;
+        margin-left: -187.2px;
     }
 
     .mySlides img {
-        width: 370px;
+        width: 375px;
         height: auto;
     }
 
     .shadow img {
-        width: 370px;
-        height: 230px;
+        width: 375px;
+        height: 232px;
 
     }
 
@@ -1556,7 +1556,7 @@ form input::placeholder {
     }
 
     .bg_con {
-        width: 370px;
+        width: 375px;
         padding: 0;
         margin: 0;
     }
@@ -1564,7 +1564,7 @@ form input::placeholder {
     .shadow {
         position: relative;
         left: 50%;
-        margin-left: -185px;
+        margin-left: -187.2px;
     }
 
     .next,
@@ -1597,7 +1597,7 @@ form input::placeholder {
     }
 
     .header_text {
-        margin-top: 7px;
+        margin-top: 13px;
         padding: 0;
         display: flex;
         justify-content: center;
@@ -1611,7 +1611,7 @@ form input::placeholder {
     }
 
     .container {
-        min-width: 370px;
+        min-width: 375px;
     }
 
     .search_area input {
@@ -1619,30 +1619,18 @@ form input::placeholder {
     }
 
     .dws-menu ul li a {
-        font-size: 14.5px;
+        font-size: 13px;
     }
 
     .container_header {
-        min-width: 370px;
+        min-width: 375px;
         height: 50px;
         padding: 0;
         margin: 0;
         display: inline-block;
     }
 
-    .header {
-        background: url(../img/header_mini.png) no-repeat;
-        background-size: cover;
-        height: auto;
-    }
 
-    .arrow_down {
-        display: none;
-    }
-
-    .arrow_up {
-        display: none;
-    }
 
     .footer_text {
         margin-left: 40px;
@@ -1656,9 +1644,28 @@ form input::placeholder {
     }
 
     .footer {
-        min-width: 370px;
+        min-width: 375px;
         left: 50%;
-        margin-left: -185px;
+        margin-left: -187.2px;
+    }
+    .inform{
+        top: 560px;
+        left: 50%;
+        margin-left: -187.2px;
+        width: 375px;
+        height: 900px;
+    }
+    #note_0{
+        font-size: 12px;
+    }
+    #note{
+        font-size: 11px;
+    }
+    .category ul{
+        margin-left: -15px;
+    }
+    .inform_subtitle{
+        font-size: 12px;
     }
 }
 
