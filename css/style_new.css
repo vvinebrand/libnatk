@@ -1327,7 +1327,7 @@ form input::placeholder {
         margin-left: -185px;
     }
 }
-@media(max-width: 415px) {
+@media(max-width: 414px) {
     .welcome {
         display: none;
     }
@@ -1395,7 +1395,7 @@ form input::placeholder {
     }
 
     .header_title {
-        font-size: 15px;
+        font-size: 13px;
         margin: 0;
         padding: 0;
     }
