@@ -1230,15 +1230,18 @@ form input::placeholder {
     .dot {
         top: 315px;
     }
-    .header_subtitle{
+
+    .header_subtitle {
         display: none;
     }
-    .header_title{
+
+    .header_title {
         font-size: 15px;
         margin: 0;
         padding: 0;
     }
-    .header_text{
+
+    .header_text {
         margin: 0 auto;
         padding: 0;
         display: flex;
@@ -1247,22 +1250,135 @@ form input::placeholder {
         max-width: 430px;
         align-items: center;
     }
-    .header_text img{
+
+    .header_text img {
         width: 7%;
     }
-    .container_header{
+
+    .container_header {
         height: 50px;
         padding: 0;
         margin: 0;
         display: inline-block;
-        
+
     }
-    .header{
+
+    .header {
         background: url(../img/header_mini.png) no-repeat;
         background-size: contain;
         height: auto;
     }
-    .arrow_down{
+
+    .arrow_down {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .welcome {
+        display: none;
+    }
+
+    .to_library {
+        display: none;
+    }
+
+    .mySlides {
+        left: 50%;
+        margin-left: -187.5px;
+    }
+
+    .mySlides img {
+        width: 375px;
+        height: auto;
+    }
+
+    .shadow img {
+        width: 375px;
+        height: 233px;
+
+    }
+
+    .bg_con {
+        width: 375px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .shadow {
+        position: relative;
+        left: 50%;
+        margin-left: -187.5px;
+    }
+
+    .next,
+    .prev {
+        top: 120px;
+        color: rgba(255, 255, 255, 0.534);
+    }
+
+    .next {
+        margin-right: 10px;
+
+    }
+
+    .prev {
+        margin-left: 10px;
+    }
+
+    .dot {
+        top: 250px;
+    }
+
+    .header_subtitle {
+        display: none;
+    }
+
+    .header_title {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header_text {
+        margin-top: 7px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 375px;
+        align-items: center;
+    }
+
+    .header_text img {
+        width: 7%;
+    }
+
+    .container {
+        min-width: 375px;
+    }
+
+    .search_area input {
+        width: 300px;
+    }
+.dws-menu ul li a{
+    font-size: 14.5px;
+}
+    .container_header {
+        min-width: 375px;
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .header {
+        background: url(../img/header_mini.png) no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+
+    .arrow_down {
         display: none;
     }
 }
