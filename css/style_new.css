@@ -1190,7 +1190,7 @@ form input::placeholder {
     }
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
     .welcome {
         display: none;
     }
@@ -1265,7 +1265,7 @@ form input::placeholder {
     .arrow_down{
         display: none;
     }
-} */
+}
 
 /*    .header {
         background: url(../img/header_mini.png) no-repeat fixed;
