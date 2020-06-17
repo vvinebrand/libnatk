@@ -1330,15 +1330,15 @@ form input::placeholder {
 @media(max-width: 414px) {
      .visibleMenu_contacts {
         left: 50%;
-        margin-left: -207px;
-        width: 414px;
+        margin-left: -205px;
+        width: 410px;
 
     }
 
     .visibleMenu_catalog {
         left: 50%;
-        margin-left: -207px;
-        width: 414px;
+        margin-left: -205px;
+        width: 410px;
     }
 
     .subMenu_contacts p {
@@ -1415,7 +1415,7 @@ form input::placeholder {
     }
 
     .header_title {
-        font-size: 10px;
+        font-size: 15px;
         margin: 0;
         padding: 0;
     }
